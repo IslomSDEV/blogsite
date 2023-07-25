@@ -21,7 +21,7 @@ export function Header() {
       <div className="container">
         <div className="flexBox">
           <Link className="logoLink" to={"/"}>
-            <div className="headerLogo">Islom's Blog</div>
+            <div className="headerLogo">Azamjon</div>
           </Link>
           <nav className="navbar">
             <NavLink className="navLink" to={"/academy"}>
