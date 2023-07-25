@@ -1,0 +1,143 @@
+.talk {
+    width: 100vw;
+}
+
+.talkTitle {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    padding: 20px 0;
+    color: #212529;
+    border-bottom: 1px solid rgba(221, 221, 221, 0.589); 
+    margin-top: 100px;
+}
+
+.talkCont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+.talksCreateBtn {
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    background: rgb(0, 0, 96);
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
+
+.talksMovement {
+    list-style: none;
+    padding: 0;
+}
+
+.talksItem {
+    display: flex;
+    align-items: center;
+    width: 600px;
+    margin-top: 30px;
+}
+
+.itemFlex {
+    width: 100%;
+    display: flex;
+}
+
+.talksInfoBox {
+    width: 100%;
+    border-top: 1px solid rgb(222, 222, 222);
+    margin-left: 20px;
+    padding: 8px 0;
+
+}
+
+.itemImgBox {
+    width: 200px;
+    height: 90px;
+}
+
+.itemImg {
+    width: 100%;
+    height: 100%;
+}
+
+.itemDate {
+    font-size: 15px;
+    color: rgb(174, 174, 174);
+    font-weight: 200;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.itemTitle {
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(52, 52, 52);
+}
+
+.talksInfoBox {
+    position: relative;
+    transition: all .4s;
+}
+
+.talksInfoBox:hover {
+    box-shadow: 0px 17px 25px -20px rgb(189, 189, 189);
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.talksInfoBox:hover > .itemArrow {
+    opacity: 1;
+    transition: all .5s;
+    transform: translateX(10px);
+} 
+
+.itemArrow {
+    position: absolute;
+    font-size: 25px;
+    top: 40%;
+    right: 20px;
+    opacity: 0;
+    transition: all .2s;
+    transform: translateX(-10px);
+}
+
+.talksRight {
+    margin-top: 30px;
+    position: relative;
+}
+
+.fixedBox {
+    position: fixed;
+    top: 230px;
+    right: 200px;
+}
+
+.newsletterTitle {
+    font-size: 16px;
+    letter-spacing: 1.3px;
+    font-weight: 600;
+    color: #2c3136;
+    margin-bottom: 15px;
+}
+
+.newsletterParagraf {
+    letter-spacing: 1.4px;
+    width: 360px;
+    line-height: 25px;
+    font-size: 18px;
+    color: #575757;
+}
+
+.talksLink {
+    text-decoration: none;
+}
+

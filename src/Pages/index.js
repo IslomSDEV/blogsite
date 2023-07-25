@@ -1,0 +1,5 @@
+export * from '../Pages/Home/Home'
+export * from '../Pages/Academy/Academy'
+export * from '../Pages/Blogs/Blog'
+export * from '../Pages/Talks/Talks'
+export * from '../Pages/About/About'

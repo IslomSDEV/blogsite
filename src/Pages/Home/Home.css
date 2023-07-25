@@ -1,0 +1,94 @@
+
+.heroBox {
+    width: 100%;
+    min-height: 572px;
+    display: flex;
+    align-items: center;
+}
+
+.homeCont {
+    margin-top: 100px;
+}
+
+.imgAndTitle {
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.heroImg {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-image: url('../../Assets/Images/hero.jpg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 30px;
+}
+
+.heroName {
+    font-size: 40px;
+    font-weight: 700;
+    color: #262626;
+    margin-bottom: 10px;
+}
+
+.heroJob {
+    font-size: 30px;
+    font-weight: 400;
+    color: #7F7F7F;
+    margin-bottom: 25px;
+
+}
+
+.heroSocial {
+    font-size: 25px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.heroSocial:first-child {
+    margin-left: 0;
+}
+
+.heroDesc {
+    font-size: 21px;
+    font-weight: 300;
+    color: #404040;
+    margin-top: 35px;
+}
+
+.homeBtn {
+    padding: 10px 20px;
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+  
+.herobtnRead {
+    margin-right: 20px;
+    background: #1E90FF;
+    color: #fff;
+}
+
+.herobtnRead:hover {
+    background: #1EB4FF;
+}
+ 
+.herobtnAbout {
+    border: 1px solid #1E90FF;
+    background: none;
+    color: #1E90FF;
+}
+
+.herobtnAbout:hover {
+    color: #1EB4FF;
+}
+
+
+

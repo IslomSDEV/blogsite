@@ -1,0 +1,91 @@
+
+.transparentScreen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(193, 193, 193, 0.501);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99999;
+}
+
+.show {
+    display: flex;
+}
+
+.hide {
+    display: none;
+}
+
+.modalScreen {
+    width: 900px;
+    height: 500px;
+    background: white;
+    border-radius: 30px;
+    position: relative;
+}
+
+.modalForm {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 50px 0 0 100px;
+}
+
+.postName {
+    display: inline-block;
+    width: 670px;
+    padding: 10px;
+    font-size: 17px;
+}
+
+.postDate {
+    display: inline-block;
+    width: 100px;
+    padding: 5px;
+}
+
+.postPicture {
+    width: 100px;
+    height: 100px;
+    background: #999999;
+}
+
+.modalBtns {
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 20px;
+    font-size: 18px;
+}
+
+.done{
+    display: block;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+    background: rgb(0, 157, 0);
+    color: #fff;
+    border: none;
+}
+
+.cancel {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    border-bottom-right-radius: 20px;
+    background: rgb(255, 42, 42);
+    color: #fff;
+
+}

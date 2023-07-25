@@ -1,0 +1,205 @@
+.blog {
+    width: 100vw;
+}
+
+.blogTitle {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    padding: 20px 0;
+    color: #212529;
+    border-bottom: 1px solid rgba(221, 221, 221, 0.589); 
+    margin-top: 100px;
+}
+
+.blogCont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blogBox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.blogLeft {
+    width: 550px;
+    margin-top: 30px;
+}
+
+.blogMovements {
+    list-style: none;
+    padding: 0;
+}
+
+.item {
+    margin-top: 80px;
+}
+
+.monthName {
+    font-size: 25px;
+    font-weight: 500;
+    color: #212529;
+    padding: 10px;
+    border-bottom: 1px solid rgb(234, 234, 234);
+    padding: 0;
+    padding-bottom: 25px;
+}
+
+.blogDesc {
+    font-size: 17px;
+    color: #262626;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgb(234, 234, 234);
+    padding-bottom: 30px;
+    position: relative;
+    transition: all .4s;
+}
+.blogDesc > span {
+    color:#999999; 
+    margin-top: 25px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.blogDesc:hover {
+    box-shadow: 0px 17px 25px -23px rgb(189, 189, 189);
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.blogDesc:hover > .itemIcon {
+    opacity: 1;
+    transition: all .5s;
+    transform: translateX(10px);
+}
+
+.itemIcon {
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    opacity: 0;
+    transition: all .2s;
+    transform: translateX(-10px);
+
+}
+
+.twentyTwo {
+    position: relative;
+}
+
+.twentyTwo::after {
+    content: '2022';
+    top: -65px;
+    left: -40px;
+    width: 100px;
+    height: 50px;
+    background-color: #EEEEEE;
+    position: absolute;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.twentyOne {
+    position: relative;
+}
+
+.twentyOne::after {
+    content: '2021';
+    top: -65px;
+    left: -40px;
+    width: 100px;
+    height: 50px;
+    background-color: #EEEEEE;
+    position: absolute;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.twenty {
+    position: relative;
+}
+
+.twenty::after {
+    content: '2020';
+    top: -65px;
+    left: -40px;
+    width: 100px;
+    height: 50px;
+    background-color: #EEEEEE;
+    position: absolute;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nineTeen {
+    position: relative;
+}
+
+.nineTeen::after {
+    content: '2019';
+    top: -65px;
+    left: -40px;
+    width: 100px;
+    height: 50px;
+    background-color: #EEEEEE;
+    position: absolute;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.blogRight {
+    margin-top: 30px;
+    position: relative;
+}
+
+.fixedBox {
+    position: fixed;
+    top: 230px;
+    right: 200px;
+}
+
+.newsletterTitle {
+    font-size: 16px;
+    letter-spacing: 1.3px;
+    font-weight: 600;
+    color: #2c3136;
+    margin-bottom: 15px;
+}
+
+.newsletterParagraf {
+    letter-spacing: 1.4px;
+    width: 360px;
+    line-height: 25px;
+    font-size: 18px;
+    color: #575757;
+}
+
+.blogLink {
+    text-decoration: none;
+}
+

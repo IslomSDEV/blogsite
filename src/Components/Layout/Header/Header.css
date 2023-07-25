@@ -1,0 +1,57 @@
+.header {
+    width: 100vw;
+    padding: 25px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    z-index: 10000;
+    border-bottom: 1px solid rgba(221, 221, 221, 0.589);
+    transition: all .3s;
+
+}
+
+.shadow {
+    box-shadow: 0px 17px 25px -24px rgb(189, 189, 189);
+}
+
+.flexBox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoLink {
+    text-decoration: none;
+    color: #162232;
+}
+
+.headerLogo {
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navLink {
+    text-decoration: none;
+    color: #979797;
+    font-size: 18px;
+    margin-right: 50px;
+    letter-spacing: 1.5px;
+    transition: all .3s;
+}
+
+.navLink:hover {
+   color:rgb(52, 52, 52); 
+}
+
+.navLink:nth-child(3) {
+    margin-right: 0;
+}
